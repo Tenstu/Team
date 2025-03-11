@@ -30,3 +30,21 @@ git commit -m "添加示例"
 ```Git Bash
 git push origin name
 ```
+## 合并分支
+### 将分支的指定文件夹合并到主分支`main`
+#### 1. 切换到主分支
+```Git Bash
+git checkout main
+```
+#### 2. 将分支`name`中指定文件夹的所有内容复制到当前分支
+```
+git checkout name -- path/to/folder
+```
+#### 3. 接下来，使用`git add`命令将更改添加到暂存区。
+```Git Bash
+git add path/to/folder
+```
+#### 4. 提交合并结果
+```Git Bash
+git commit -m "Merge folder from branchA into main"
+```
