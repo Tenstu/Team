@@ -12,3 +12,21 @@ cd /e/code/Obsidian Vault/Team
 ```Git Bash
 git clone https://github.com/weiyvshan/Team.git
 ```
+
+### 创建自己的分支
+```Git Bash
+git checkout -b name
+```
+## 提交变更
+### 添加所有更改
+```Git Bash
+git add .
+```
+### 添加描述
+```Git Bash
+git commit -m "添加示例"
+```
+### 推送到自己的分支
+```Git Bash
+git push origin name
+```
