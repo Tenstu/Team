@@ -21,20 +21,21 @@ graph TD   
 ```text
 Team/
 ├── 00-团队规范/
+|   ├── image/					#用于存放图片
 │   ├── 常见问题及解决方案.md
 │   └── 命名规则.md
 ├── 01-共享知识库/
 │   ├── AI使用/
 |   └── Obsidian插件推荐/
 ├── 02-学习笔记/
-│   └── name/
+│   └── name/					#各自的学习成果
 └── README.md
 ```
 ### 分支策略
 - `main` 分支：稳定版本，仅包含审核通过的内容
 - `name` 分支：成员个人工作分支
 # 使用说明
-![协作示意图](https://cdn.skyimg.de/up/2025/3/11/h1bgx2.webp)                                                                  
+![协作示意图](https://cdn.skyimg.de/up/2025/3/11/h1bgx2.webp)
 ## 准备工作
 1. 安装[Git](https://git-scm.com/)：版本控制系统（安装时勾选"Git Bash Here"）
 2. 新建文件夹，命名为`Team`用于存放仓库文件。
@@ -51,7 +52,7 @@ git clone https://github.com/weiyvshan/Team.git
 
 ### 创建自己的分支
 ```Git Bash
-git checkout -b name    
+git checkout -b name
 ```
 ## 提交变更
 ### 添加所有更改
@@ -84,3 +85,5 @@ git add path/to/folder
 ```Git Bash
 git commit -m "Merge folder from branchA into main"
 ```
+## 插件替代
+[[01-共享知识库/Obsidian插件推荐/Obsidian-Git|Obsidian-Git]]
