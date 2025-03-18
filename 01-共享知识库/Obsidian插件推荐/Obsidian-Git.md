@@ -17,9 +17,9 @@ $Obsidian-Git$是一款专为$Obsidian$设计的$Git$版本控制自动化插件
 2. 创建空的 GitHub仓库
 3. 在 Obsidian 库根目录初始化Git：`git init && git remote add origin <仓库URL>`
 ### 打开版本控制视图
-快捷键`Ctrl + P`，打开命令面板->输入`Git: Open source control view`->右侧边栏出现![[Obsidian-Git-2.png]]
+快捷键`Ctrl + P`，打开命令面板->输入`Git: Open source control view`->右侧边栏出现![[01-共享知识库/Obsidian插件推荐/image/Obsidian-Git-2.png]]
 #### `Commit-and-sync`（提交和同步）
-![[Obsidian-Git-1.png]]默认设置下，这将提交所有更改、拉取并推送。
+![[01-共享知识库/Obsidian插件推荐/image/Obsidian-Git-1.png]]默认设置下，这将提交所有更改、拉取并推送。
 #### `Commit Message`（提交信息）
 Git 版本控制系统中，用文字描述代码/文件变更的说明信息。作用是让每次代码修改的目的和内容可追溯。
 ##### 默认自动提交信息模版
@@ -28,7 +28,7 @@ vault backup: {{date}}
 ```
 含义：提交时的日期
 #### `Changes`（列出更改的文件）
-![[Obsidian-Git-3.png]]例如点击这里的`Obsidian-Git`可查看此文件的差异视图![[Obsidian-Git-4.png]]右侧视图可修改，影响源文件。
+![[01-共享知识库/Obsidian插件推荐/image/Obsidian-Git-3.png]]例如点击这里的`Obsidian-Git`可查看此文件的差异视图![[01-共享知识库/Obsidian插件推荐/image/Obsidian-Git-4.png]]右侧视图可修改，影响源文件。
 ## 操作流程
 1. 编辑文件
 2. 填写`Commit Message`字段
