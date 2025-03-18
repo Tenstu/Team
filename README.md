@@ -27,8 +27,8 @@ Team/
 │   ├── AI使用/
 |   └── Obsidian插件推荐/
 ├── 02-学习笔记/
-│   └── name/          
-└── README.md  
+│   └── name/
+└── README.md
 ```
 ### 分支策略
 - `main` 分支：稳定版本，仅包含审核通过的内容
