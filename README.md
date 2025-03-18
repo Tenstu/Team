@@ -7,8 +7,8 @@
 - **流程规范**：集成团队工作规范与协作模版
 # 构建思路
 ## 技术架构
-```mermaid
-graph TD
+```mermaid                                                                  
+graph TD    
     A[Git 版本控制] --> B(分支管理)
     A --> C(历史追溯)
     A --> D(冲突解决)
@@ -27,14 +27,14 @@ Team/
 │   ├── AI使用/
 |   └── Obsidian插件推荐/
 ├── 02-学习笔记/
-│   └── name/
-└── README.md
+│   └── name/          
+└── README.md  
 ```
 ### 分支策略
 - `main` 分支：稳定版本，仅包含审核通过的内容
 - `name` 分支：成员个人工作分支
 # 使用说明
-![协作示意图](https://cdn.skyimg.de/up/2025/3/11/h1bgx2.webp)
+![协作示意图](https://cdn.skyimg.de/up/2025/3/11/h1bgx2.webp)                                                                  
 ## 准备工作
 1. 安装[Git](https://git-scm.com/)：版本控制系统（安装时勾选"Git Bash Here"）
 2. 新建文件夹，命名为`Team`用于存放仓库文件。
@@ -51,7 +51,7 @@ git clone https://github.com/weiyvshan/Team.git
 
 ### 创建自己的分支
 ```Git Bash
-git checkout -b name
+git checkout -b name    
 ```
 ## 提交变更
 ### 添加所有更改
@@ -73,7 +73,7 @@ git push origin name
 git checkout main
 ```
 #### 2. 将分支`name`中指定文件夹的所有内容复制到当前分支
-```
+```Git Bash
 git checkout name -- path/to/folder
 ```
 #### 3. 接下来，使用`git add`命令将更改添加到暂存区。
